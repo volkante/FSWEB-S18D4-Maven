@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 @Entity
-@Table(name="burger", schema="s19d1")
+@Table(name="burger", schema="s18d4")
 public class Burger {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
